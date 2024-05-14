@@ -30,6 +30,7 @@ font-family: var(--font-titulo);
 font-size: 50px;
 color: #ffffff;
 border-color: #000000;
+text-align: center;
 }
 
 .img-cadeado{

@@ -51,7 +51,7 @@ border-color: #000000;
  font-size: 40px;
 }
 
-#campo-senha:focus{
+#conteudo-senha:focus{
     outline: none;
 }
 

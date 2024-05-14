@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-weight: 400;
 }
 
 :root {
@@ -11,6 +12,7 @@
     --branco-cinza: #ddd9d9;
     --laranja: #ff5e00;
     --cinza: #857777;
+    --preto: #000000;
     --font-titulo: "Dekko", cursive, monospace;
     --font-texto: "Dekko", cursive, serif;
 }
@@ -19,20 +21,45 @@ body{
 background-color: rgb(224, 111, 111);
 color: var(--branco-cinza);
 font-family: var(--font-texto);
+align-items: center;
+
 }
 
-.titulo-principal{
+.conteudo-titulo{
 font-family: var(--font-titulo);
+font-size: 50px;
+color: #ffffff;
+border-color: #000000;
 }
 
 .img-cadeado{
-    width: 5%;
+    width: 10%;
 }
 
 .conteudo-senha{
     background-color: var(--marrom-claro);
     padding: 24px;
-    color: var(--cinza);
-    font-family:var(--font-texto);
-    font-size: 40px;
+    border-bottom: 6px solid var(--branco-cinza);
+    color: var(--preto);
+}
+
+#campo-senha{
+ background-color: var(--cinza);
+ border: none;
+ color:black;
+ font-family: var(--font-texto);
+ font-size: 40px;
+}
+
+#campo-senha:focus{
+    outline: none;
+}
+
+.conteudo{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.titulo-principal{
+    font-family: var(--font-titulo);
 }
